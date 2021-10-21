@@ -1,0 +1,28 @@
+{
+  "name": "Docker_NodeJS_MongoDB",
+  "version": "1.0.0",
+  "description": "Proyecto con docker-compose donde se enlazan los contenedores Mongobd y NodeJs, para el manejo de MongoDB se utiliza Mongoose",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ugto/Docker_NodeJS_MongoDB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ugto/Docker_NodeJS_MongoDB/issues"
+  },
+  "homepage": "https://github.com/ugto/Docker_NodeJS_MongoDB#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
